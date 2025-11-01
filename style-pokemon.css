@@ -27,6 +27,10 @@ body {
       font-weight: bold;
       display: flex;
       flex-direction: column;
+      transition-duration: 0.4s;
+    }
+    .item:hover{
+      width:103%;
     }
 
     .item img {
