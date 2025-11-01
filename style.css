@@ -70,3 +70,15 @@ dialog img {
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
+
+.titolodiv p{
+  text-align: center;
+}
+.titolodiv a{
+  color: red;
+  text-decoration: none;
+}
+.titolodiv a:hover{
+  font-weight: 600;
+  text-decoration:underline;
+}

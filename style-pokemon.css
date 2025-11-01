@@ -1,0 +1,96 @@
+body {
+      margin: 0;
+      font-family: Calibri, sans-serif;
+      background: #242424;
+      color:white;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+    }
+
+    .item {
+      background: none;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      color:black;
+      text-align: center;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+.item p {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+/* Modale */
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.85);
+}
+dialog {
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+dialog img {
+  max-width: 90vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+.divtitolo{
+  display: flex;
+  align-items: center;
+}
+.divtitolo img{
+  height: 10vh;
+}
+.divtitolo button{
+  background-color: #242424;
+  color: white;
+  font-size: 110%;
+  font-weight: 700;
+  font-family: Calibri, sans-serif;
+  border-radius: 7px;
+  padding: 0.2em;
+  border-color: white;
+  border-style: solid;
+  transition-duration: 0.4s;
+  cursor:pointer;
+}
+.divtitolo button:hover{
+  color:#242424;
+  background-color: white;
+}
