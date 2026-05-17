@@ -1,2 +1,2 @@
 # WANING
-This is a joke site, you dont need to check this repository out
+This site is a joke, you dont need to check this repository out
