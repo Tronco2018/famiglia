@@ -147,3 +147,9 @@ footer p{
   height:150px;
   width:auto;
 }
+
+.paolo-class {
+  width: 100%;
+  height: auto;
+  display: block;
+}
